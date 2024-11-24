@@ -27,8 +27,8 @@ public class Task_5 {
        
     // Output the results
              System.out.println("Number of milk cartons needed: " + CartonsNeeded);
-             System.out.printf("Cost of producing the milk: $%.2f\n", totalCost);
-             System.out.printf("Profit from producing the milk: $%.2f\n", totalProfit); 
+             System.out.printf("Cost of producing the milk: " + totalCost + "$" );
+             System.out.printf("Profit from producing the milk: " + totalProfit + "$" ); 
     }
     
 }
