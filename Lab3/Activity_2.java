@@ -2,6 +2,7 @@
 //Activity-2
 public class Activity_2 {
      public static void main(String[]args) {
+       //Initializing the values to the variables
         double regularwages;
         double basepay = 25;
         double regularhours = 40;
@@ -9,10 +10,12 @@ public class Activity_2 {
         double overtimepay = 37.5;
         double overtimehours = 10;
         double totalwages;
+     //Calculations
         regularwages = basepay * regularhours;
         overtimewages = overtimepay * overtimehours;
         totalwages = regularwages + overtimewages;
-        System.out.println("Wages for the week are $" + totalwages);
+     //Results
+          System.out.println("Wages for the week are $" + totalwages);
     }    
 }
  
